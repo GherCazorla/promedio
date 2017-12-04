@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Promedio</title>
+	<style>
+		body {
+			background-color: #87CEFA;
+		}
+		div{
+
+			background-color: #F4F4F4;
+			width: 300px;
+			padding: 20px 20px 20px
+			margin: 0 auto;
+			border-radius: 10px;
+			box-shadow: 3px 3px 3px blue;
+		}
+		.lbl{
+			color: #191970;
+			font-family: Tahoma;
+			text-shadow: 1px 1px 1px green;
+		}
+
+		.pax{
+			color: #20B2AA;
+			font-size: 16px;
+			border: solid 2px #191970;
+			border-radius: 10px;
+			box-shadow: 3px 3px 3px gray;
+			padding: 2px 5px 2px 8px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+
+		<p align="center">BIENVENIDO AL <b>PROMEDIO DE</b> <i>NOTAS</i></p>
+		<br><br><br>
+		<label class="lbl" >nota 1 </label>
+		<input type="text" id="txtn1" class="pax" name=""> <br><br><br>
+		<label class="lbl" >nota 2</label>
+		<input type="text" id="txtn2" class="pax" name=""> <br><br><br>
+		<label class="lbl" >nota 3</label>
+		<input type="text" id="txtn3" class="pax" name=""> <br><br><br>
+		<button class="pax" onclick="promedio()">promedio</button>
+
+		<h3 class="lbl" id="resultado">promedio</h3>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
